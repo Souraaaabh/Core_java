@@ -1,14 +1,15 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Scanner;
-
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main extends Arrayss {
+public class Main extends SortingInJava {
     public static void main(String[] args) {
           Main a = new Main();
+//        a.BubbleSort();
+//        a.SelectionSort();
+        a.InsertionSort();
+//          a.ReverseStr();
+//          a.Substr();
 //        a.TwoDArray();
-        a.SearchInTwoDArray();
+//        a.CompareStrings();
 //        a.SearchInArray();
 //          a.RectPattern();
 //          a.HollowPattern();
