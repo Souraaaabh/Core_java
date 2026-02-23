@@ -1,11 +1,21 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main extends SortingInJava {
+public class Main extends RecursionInJava {
     public static void main(String[] args) {
-          Main a = new Main();
+          Main d = new Main();
+
+        System.out.println(d.CalcPower(2,0));
 //        a.BubbleSort();
+//        System.out.println(a.Factorial(5));
+//        a.SumOfNnumbs(5600,1,0);
+//        System.out.println(0);
+//        System.out.println(1);
+//        int n =9;
+//        int a=0;
+//        int b=1;
+//        d.Fibbna(a,b,n-2);
 //        a.SelectionSort();
-        a.InsertionSort();
+//        a.InsertionSort();
 //          a.ReverseStr();
 //          a.Substr();
 //        a.TwoDArray();
