@@ -1,10 +1,13 @@
+import java.util.HashSet;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main extends RecursionInJava {
     public static void main(String[] args) {
           Main d = new Main();
-
-        System.out.println(d.CalcPower(2,0));
+//          d.TowerOfHanoi(10,"S","H","D");
+        d.UniqueSubsequencesOfString("abc", 0,"",new HashSet<>());
+//        System.out.println(d.CalcPowerlog(2,5));
 //        a.BubbleSort();
 //        System.out.println(a.Factorial(5));
 //        a.SumOfNnumbs(5600,1,0);
