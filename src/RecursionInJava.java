@@ -109,6 +109,21 @@ public class RecursionInJava {
 
 
     }
+    public void KeypadCombination(String str ,int idx ,String combination ){
+       String[] kepad = {"." , "abc", "def","ghi","jkl" ,"mno","pqrs","tuv","wxyz"};
+
+        if (idx == str.length()){
+            System.out.println(combination);
+            return;
+
+        }
+        String mapping = kepad[str.charAt(idx) - '0'];
+        for (int i = 0; i < mapping.length(); i++) {
+            KeypadCombination(str,idx+1,combination+mapping.charAt(i));
+
+        }
+
+    }
 
 
 }

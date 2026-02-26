@@ -2,11 +2,17 @@ import java.util.HashSet;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main extends RecursionInJava {
+public class Main extends RecursionAdvance {
     public static void main(String[] args) {
           Main d = new Main();
+        System.out.println(d.PartyInviteWays(4));
+//        System.out.println(d.TilePlaceWays(4,2));
+//        System.out.println(d.countPathsMaze(0,0,3,3));
+//          d.Permutations("abc","");
+//d.KeypadCombination("422" , 0,"");
 //          d.TowerOfHanoi(10,"S","H","D");
-        d.UniqueSubsequencesOfString("abc", 0,"",new HashSet<>());
+//        d.KeypadCombination( );
+//        d.UniqueSubsequencesOfString("abc", 0,"",new HashSet<>());
 //        System.out.println(d.CalcPowerlog(2,5));
 //        a.BubbleSort();
 //        System.out.println(a.Factorial(5));
