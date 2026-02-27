@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class RecursionAdvance {
 
     public void Permutations(String str , String permutation){
@@ -44,6 +46,28 @@ public class RecursionAdvance {
         int way1 = PartyInviteWays(n-1);
         int way2 =(n-1) * PartyInviteWays(n-2);
         return  way1+ way2;
+        }
+
+        public void printSubset(ArrayList subset){
+            for (int i = 0; i < subset.size(); i++) {
+                System.out.print(subset.get(i));
+            }
+            System.out.println();
+        }
+
+        public void findSubset(int n ,ArrayList <Integer> subset ){
+
+        if (n==0){
+            printSubset(subset);
+            return;
+        }
+
+        //wants to be added
+            subset.add(n);
+            findSubset(n-1,subset);
+        //Do not want to get added
+            subset.remove(subset.size()-1);
+            findSubset(n-1,subset);
         }
 }
 

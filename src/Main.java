@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.HashSet;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -5,7 +6,8 @@ import java.util.HashSet;
 public class Main extends RecursionAdvance {
     public static void main(String[] args) {
           Main d = new Main();
-        System.out.println(d.PartyInviteWays(4));
+          d.findSubset(3,new ArrayList<>());
+//        System.out.println(d.PartyInviteWays(4));
 //        System.out.println(d.TilePlaceWays(4,2));
 //        System.out.println(d.countPathsMaze(0,0,3,3));
 //          d.Permutations("abc","");
