@@ -16,8 +16,10 @@
 //Output: [0,0,9,0,0]
 
 
+import java.util.Arrays;
+
 public class ProductExceptSelf {
-    public int[] productExceptSelf(int[] nums) {
+    public static int[] productExceptSelf(int[] nums) {
 
         int n = nums.length;
         int[] result = new int[n];
@@ -38,6 +40,11 @@ public class ProductExceptSelf {
         }
 
         return result;
+    }
+
+    public static void main(String[] args) {
+        int[] nums ={1,2,3,4};
+        System.out.println(Arrays.toString(productExceptSelf(nums)));
     }
 
 }
